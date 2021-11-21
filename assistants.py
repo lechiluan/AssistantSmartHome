@@ -59,7 +59,7 @@ if __name__  =="__main__":
             wb.get().open(url)
             speak(f'Here is your {search} on youtube')
         elif "video" in query:
-            meme =r"E:\GitHub\assistantsmarthome\video.mp4"
+            meme =r"E:\GitHub\AssistantSmartHome\video.mp4"
             os.startfile(meme)
         elif 'time' in query:
             time()
